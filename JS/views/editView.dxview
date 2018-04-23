@@ -1,0 +1,7 @@
+<div data-options="dxView : { name: 'editView', title: 'Edit' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        CategoryID:<div data-bind="dxTextBox: {value: categoryId, disabled: true}"></div>
+        CategoryName:<div data-bind="dxTextBox: {value: categoryName}"></div>
+        <div data-bind="dxButton: {text: 'Save', clickAction: btnSaveClick}"></div>       
+    </div>
+</div>
